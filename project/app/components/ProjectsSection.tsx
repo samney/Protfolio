@@ -229,10 +229,10 @@ export const ProjectsSection = () => {
                         View Prototype
                       </a>
                     )}
-                    {project.liveUrl && (
+                    {(project as { liveUrl?: string }).liveUrl && (
                       <a
                         className="inline-block px-4 py-2 bg-[#1A1F2B] text-gray-300 rounded-lg border border-purple-500/30 hover:border-purple-400 hover:bg-[#2D333B] hover:text-white transition-all duration-200 font-semibold"
-                        href={project.liveUrl}
+                        href={(project as { liveUrl?: string }).liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

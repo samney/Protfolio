@@ -66,7 +66,7 @@ export const RequestQuoteForm: React.FC<RequestQuoteFormProps> = ({ isOpen, onCl
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -228,7 +228,7 @@ export const RequestQuoteForm: React.FC<RequestQuoteFormProps> = ({ isOpen, onCl
           {/* Submit Status */}
           {submitStatus === 'success' && (
             <div className="bg-green-900/30 border border-green-500/40 rounded-lg p-4 text-green-300">
-              ✅ Quote request sent successfully! I'll get back to you within 24 hours.
+              ✅ Quote request sent successfully! I&apos;ll get back to you within 24 hours.
             </div>
           )}
           

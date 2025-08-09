@@ -44,7 +44,7 @@ export const AboutMeSection = () => {
             <div className="text-5xl">👋</div>
             <div className="max-w-3xl">
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-                Hello, I'm Saad Mney
+                Hello, I&apos;m Saad Mney
               </h3>
               <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
                 A passionate freelance UI/UX designer specializing in crafting
@@ -147,14 +147,14 @@ export const AboutMeSection = () => {
             <SectionTitle icon="🎯">Design Philosophy</SectionTitle>
             <p className="text-gray-400 leading-relaxed mb-4">
               I believe great design is invisible—it solves problems so
-              seamlessly that users don't have to think about it. Every
+              seamlessly that users don&apos;t have to think about it. Every
               pixel serves a purpose, every interaction tells a story, and
               every project is an opportunity to create something meaningful.
             </p>
             
             <div className="p-4 bg-[#1A1F2B] rounded-lg border-l-4 border-green-500/50">
               <p className="text-sm text-gray-400 italic">
-                "Design is not just what it looks like and feels like. Design is how it works."
+                &quot;Design is not just what it looks like and feels like. Design is how it works.&quot;
               </p>
               <p className="text-xs text-green-400 mt-1">— Steve Jobs</p>
             </div>

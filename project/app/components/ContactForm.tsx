@@ -57,7 +57,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => 
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -91,7 +91,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => 
           <div className="text-center mb-6">
             <p className="text-gray-400">
               Have a question, collaboration idea, or just want to say hello? 
-              I'd love to hear from you!
+              I&apos;d love to hear from you!
             </p>
           </div>
 
@@ -170,7 +170,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => 
           {/* Submit Status */}
           {submitStatus === 'success' && (
             <div className="bg-green-900/30 border border-green-500/40 rounded-lg p-4 text-green-300">
-              ✅ Message sent successfully! I'll get back to you within 24 hours.
+              ✅ Message sent successfully! I&apos;ll get back to you within 24 hours.
             </div>
           )}
           
