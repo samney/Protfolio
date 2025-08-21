@@ -99,7 +99,7 @@ export const AboutMeSection = () => {
             <SectionTitle icon="🏆">Key Achievements</SectionTitle>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { metric: "24+", label: "Projects" },
+                { metric: "14+", label: "Projects" },
                 { metric: "92%", label: "Satisfaction" },
                 { metric: "100%", label: "Accessibility" },
                 { metric: "7+", label: "Years Exp." },
@@ -163,15 +163,6 @@ export const AboutMeSection = () => {
           {/* Skills & Expertise */}
           <Card>
             <SectionTitle icon="🌟">Skills & Expertise</SectionTitle>
-            
-            <div className="mb-4">
-              <h5 className="text-sm font-semibold text-white mb-2">What Sets Me Apart</h5>
-              <p className="text-sm text-gray-400 leading-relaxed">
-                Beyond pixels and prototypes, I bring strategic thinking to every project, 
-                ensuring designs work exceptionally well for both users and businesses.
-              </p>
-            </div>
-            
             <div>
               <h5 className="text-sm font-semibold text-white mb-3">Areas of Focus</h5>
               <div className="flex flex-wrap gap-2">
@@ -181,7 +172,12 @@ export const AboutMeSection = () => {
                   "Accessibility",
                   "Problem Solving",
                   "Collaboration",
-                  "Visual Storytelling"
+                  "Visual Storytelling",
+                  "Strategic Thinking",
+                  "Product Design",
+                  "User Interface Design",
+                  "Interaction Design",
+                  "Usability Testing"
                 ].map((skill, index) => (
                   <span key={index} className={tagStyles}>
                     {skill}

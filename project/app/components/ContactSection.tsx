@@ -13,14 +13,6 @@ export const ContactSection = () => {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
           Let&apos;s Build Something Meaningful
         </h2>
-        <p className="text-sm sm:text-base text-gray-400 mb-6 max-w-2xl mx-auto leading-relaxed">
-          I&apos;m passionate about collaborating with like-minded individuals
-          who share a vision for solving real-world problems through thoughtful
-          digital products. Together, we can create experiences that not only
-          serve users but also contribute positively to our communities and
-          society.
-        </p>
-
         {/* Location */}
         <div className="flex items-center justify-center gap-2 text-gray-400 mb-8">
           <svg
@@ -58,7 +50,7 @@ export const ContactSection = () => {
             Get in Touch
           </button>
           <a
-            href="/resume.pdf"
+            href="/cv.pdf"
             target="_blank"
             className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#21262D] border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors"
           >

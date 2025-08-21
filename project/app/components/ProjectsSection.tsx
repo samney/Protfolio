@@ -58,7 +58,7 @@ export const ProjectsSection = () => {
             {
               title: "DaumTech - Corporate Website",
               description:
-                "DAUMTech incarne l'alliance stratégique entre l'excellence scientifique de l'UM6P et le savoir-faire des Domaines Agricoles, au service de l'agriculture de demain",
+                "DAUMTech represents the strategic alliance between UM6P scientific excellence and Domaines Agricoles’ expertise, working together to shape the agriculture of tomorrow.",
               metrics: {
                 UsabilityScore: 90,
                 UserSatisfaction: 85,
