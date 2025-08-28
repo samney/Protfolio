@@ -29,17 +29,20 @@ A sleek, modern portfolio built with Next.js, React, and TailwindCSS. Features s
 ## 🚀 Quick Start
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/your-portfolio.git
    cd your-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -68,28 +71,33 @@ A sleek, modern portfolio built with Next.js, React, and TailwindCSS. Features s
 ## 🎨 Customization
 
 ### Personal Information
+
 1. Update your details in `app/components/HeroSection.tsx`
 2. Add your projects in `app/components/ProjectsSection.tsx`
 3. Update skills in `app/components/SkillsSection.tsx`
 4. Configure contact info in `app/components/ContactSection.tsx`
 
 ### Styling
+
 - Modify colors in `tailwind.config.ts`
 - Update global styles in `app/globals.css`
 - Customize component styles directly in TSX files
 
 ### Assets
+
 - Replace images in the `public/` directory
 - Update favicon in `app/favicon.ico`
 
 ## 🚀 Deployment
 
 ### Deploy to Vercel (Recommended)
+
 1. Push your code to GitHub
 2. Visit [Vercel](https://vercel.com) and import your repository
 3. Deploy with one click!
 
 ### Other Platforms
+
 - **Netlify:** Connect your Git repository
 - **GitHub Pages:** Use `next export` for static generation
 

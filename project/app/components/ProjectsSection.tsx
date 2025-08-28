@@ -72,7 +72,6 @@ export const ProjectsSection = () => {
               image: "/daumtech.png",
               projectUrl:
                 "https://www.figma.com/design/DcLzqFn7yCLYfhYxkUmDVl/Daumtech-UI-Design-website?node-id=0-1&t=WNiOnPpEaB4euvtF-1",
-              brandWorkUrl: "DaumtechBrandBook.pdf",
             },
             {
               title: "UM6P Change Makers Platform",
