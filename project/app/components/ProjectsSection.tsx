@@ -238,16 +238,6 @@ export const ProjectsSection = () => {
                         Live Project
                       </a>
                     )}
-                    {project.brandWorkUrl && (
-                      <a
-                        className="inline-block px-4 py-2 bg-[#1A1F2B] text-gray-300 rounded-lg border border-orange-500/30 hover:border-orange-400 hover:bg-[#2D333B] hover:text-white transition-all duration-200 font-semibold"
-                        href={project.brandWorkUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Brand Work
-                      </a>
-                    )}
                   </div>
                 </div>
 
